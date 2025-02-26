@@ -12,7 +12,7 @@
   patchy-cnb,
 }: let
   pname = "claude-desktop";
-  version = "0.7.8";
+  version = "0.7.9";
   srcExe = fetchurl {
     # NOTE: `?v=0.7.8` doesn't actually request a specific version. It's only being used here as a cache buster.
     url = "https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-win-x64/Claude-Setup-x64.exe";
